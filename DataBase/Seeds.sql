@@ -1,0 +1,1 @@
+INSERT INTO my_info(name, cv_img, description, email, github_link, linkedin_link) VALUES ('Kyle Pearce', '', 'Hello there, I am Kyle.', 'kyle.pearce@sigmalabs.xyz', 'https://github.com/KylePearce-SoftwareDeveloper', 'https://www.linkedin.com/in/kyle-pearce-a7a904217/');
