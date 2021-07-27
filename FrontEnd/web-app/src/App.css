@@ -8,7 +8,8 @@ body
     margin: 0px;
     min-height: 100%;
     /*background-image: linear-gradient(#03071E, #370617, #6A040F, #9D0208, #D00000, #DC2F02, #E85D04, #F48C06, #FAA307, #FFBA08);*/
-    background: #37002D;;
+    background: #37002D;
+    font-family: sans-serif;
 }
 
 main
@@ -28,6 +29,7 @@ body{
 */
 .navBar{
     margin: 1em;
+    padding: 1em;
     /*background: #ff9f1c;*/
     /*color: #000;*/
     /*margin-bottom: 0;*/
@@ -80,4 +82,8 @@ body{
 
 .floatRight {
     float: right;
+}
+
+.logo{
+    padding: 0px;
 }

@@ -38,7 +38,7 @@ class App extends Component {
         return (
             <Router>
                 <nav className="navBar">
-                    <NavLink className="navButton noUnderline" to="/" activeClassName=""><img src="logo192.png" height="50" width="50"/></NavLink>
+                    <NavLink className="navButton noUnderline logo" to="/" activeClassName=""><img src="favicon.ico" height="50" width="50"/></NavLink>
                     <NavLink className="navButton noUnderline floatRight resumeButton" to="/Resume" activeClassName="navActive">Resume</NavLink>
                     <NavLink className="navButton noUnderline floatRight" to="/Contact" activeClassName="navActive"><span className="navNumber">04.</span>Contact</NavLink>
                     <NavLink className="navButton noUnderline floatRight" to="/Work" activeClassName="navActive"><span className="navNumber">03.</span>Work</NavLink>
