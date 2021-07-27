@@ -7,6 +7,12 @@ import {
     Redirect
 } from 'react-router-dom';
 import Home from './Home';
+import Resume from './Resume';
+import Contact from './Contact';
+import Work from './Work';
+import Experience from './Experience';
+import About from './About';
+import './App.css';
 
 class App extends Component {
 
@@ -31,11 +37,33 @@ class App extends Component {
     render() {
         return (
             <Router>
-                <NavLink className="" to="/" activeClassName="">Home</NavLink>
+                <nav className="navBar">
+                    <NavLink className="navButton noUnderline logo" to="/" activeClassName=""><img src="favicon.ico" height="50" width="50"/></NavLink>
+                    <NavLink className="navButton noUnderline floatRight resumeButton" to="/Resume" activeClassName="navActive">Resume</NavLink>
+                    <NavLink className="navButton noUnderline floatRight" to="/Contact" activeClassName="navActive"><span className="navNumber">04.</span>Contact</NavLink>
+                    <NavLink className="navButton noUnderline floatRight" to="/Work" activeClassName="navActive"><span className="navNumber">03.</span>Work</NavLink>
+                    <NavLink className="navButton noUnderline floatRight" to="/Experience" activeClassName="navActive"><span className="navNumber">02.</span>Experience</NavLink>
+                    <NavLink className="navButton noUnderline floatRight" to="/About" activeClassName="navActive"><span className="navNumber">01.</span>About</NavLink>
+                </nav>
                 <main>
                     <Switch>
                         <Route exact path={["/", "/Home"]}>
                             <Home />
+                        </Route>
+                        <Route exact path="/Resume">
+                            <Resume />
+                        </Route>
+                        <Route exact path="/Contact">
+                            <Contact />
+                        </Route>
+                        <Route exact path="/Work">
+                            <Work />
+                        </Route>
+                        <Route exact path="/Experience">
+                            <Experience />
+                        </Route>
+                        <Route exact path="/About">
+                            <About />
                         </Route>
                     </Switch>
                 </main>
