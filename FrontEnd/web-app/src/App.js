@@ -12,6 +12,7 @@ import Contact from './Contact';
 import Work from './Work';
 import Experience from './Experience';
 import About from './About';
+import Skills from './Skills';
 import './App.css';
 
 class App extends Component {
@@ -40,9 +41,10 @@ class App extends Component {
                 <nav className="navBar">
                     <NavLink className="navButton noUnderline logo" to="/" activeClassName=""><img src="favicon.ico" height="50" width="50"/></NavLink>
                     <NavLink className="navButton noUnderline floatRight resumeButton" to="/Resume" activeClassName="navActive">Resume</NavLink>
-                    <NavLink className="navButton noUnderline floatRight" to="/Contact" activeClassName="navActive"><span className="navNumber">04.</span>Contact</NavLink>
-                    <NavLink className="navButton noUnderline floatRight" to="/Work" activeClassName="navActive"><span className="navNumber">03.</span>Work</NavLink>
-                    <NavLink className="navButton noUnderline floatRight" to="/Experience" activeClassName="navActive"><span className="navNumber">02.</span>Experience</NavLink>
+                    <NavLink className="navButton noUnderline floatRight" to="/Contact" activeClassName="navActive"><span className="navNumber">05.</span>Contact</NavLink>
+                    <NavLink className="navButton noUnderline floatRight" to="/Work" activeClassName="navActive"><span className="navNumber">04.</span>Work</NavLink>
+                    <NavLink className="navButton noUnderline floatRight" to="/Experience" activeClassName="navActive"><span className="navNumber">03.</span>Experience</NavLink>
+                    <NavLink className="navButton noUnderline floatRight" to="/Skills" activeClassName="navActive"><span className="navNumber">02.</span>Skills</NavLink>
                     <NavLink className="navButton noUnderline floatRight" to="/About" activeClassName="navActive"><span className="navNumber">01.</span>About</NavLink>
                 </nav>
                 <main>
@@ -61,6 +63,9 @@ class App extends Component {
                         </Route>
                         <Route exact path="/Experience">
                             <Experience />
+                        </Route>
+                        <Route exact path="/Skills">
+                            <Skills />
                         </Route>
                         <Route exact path="/About">
                             <About />
