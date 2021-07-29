@@ -23,7 +23,7 @@ export default class Skills extends Component {
             <div className="pageContents">
                 <h1 className="subText"><span className="navNumber">02.</span><span className="largerText">What I Know</span></h1>
                 <p className="subText indentationOuter"><span className="highlightedText">Programming languages:</span></p>
-                <p className="subText indentationInner">C++, C, C#, PHP, Python, Java, JavaScript</p>
+                <p className="subText indentationInner">C++ (Modern C++20), C, C#, PHP, Python, Java, JavaScript</p>
                 <p className="subText indentationOuter"><span className="highlightedText">Structural languages:</span></p>
                 <p className="subText indentationInner">HTML, CSS, SQL, JSON, XML</p>
                 <p className="subText indentationOuter"><span className="highlightedText">Graphics languages:</span></p>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Skills extends Component {
+export default class Experience extends Component {
 
     constructor(props) {
         super(props);
@@ -21,7 +21,7 @@ export default class Skills extends Component {
     render() {
         return (
             <div className="pageContents">
-                <h1 className="subText"><span className="navNumber">02.</span><span className="largerText">Professional Industry Experience</span></h1>
+                <h1 className="subText"><span className="navNumber">03.</span><span className="largerText">Professional Industry Experience</span></h1>
                 <p className="subText indentationOuter"><span>Full-Stack Software Engineer <a className="highlightedText" href="https://www.sigmalabs.xyz/" target="_blank">@ Sigma Labs XYZ</a></span></p>
                 <p className="subText indentationOuter">April 2021 - Present</p>
                 <p className="subText indentationInner list">Completed full time, intense 12 week Full-Stack Web Engineer training</p>
