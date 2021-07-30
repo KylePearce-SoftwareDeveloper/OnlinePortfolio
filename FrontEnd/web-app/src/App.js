@@ -41,7 +41,7 @@ class App extends Component {
                 <nav className="navBar">
                     <NavLink className="navButton noUnderline logo" to="/" activeClassName=""><img src="favicon.ico" height="50" width="50"/></NavLink>
                     {/*<NavLink className="navButton noUnderline floatRight resumeButton" to="/Resume" activeClassName="navActive">Resume</NavLink>*/}
-                    <a className="navButton noUnderline floatRight resumeButton" href="KylePearce_CV.pdf" target="_blank">Resume</a>
+                    <a className="navButton noUnderline floatRight resumeButton" href="Resume.pdf" target="_blank">Resume</a>
                     <NavLink className="navButton noUnderline floatRight" to="/Contact" activeClassName="navActive"><span className="navNumber">05.</span>Contact</NavLink>
                     <NavLink className="navButton noUnderline floatRight" to="/Work" activeClassName="navActive"><span className="navNumber">04.</span>Work</NavLink>
                     <NavLink className="navButton noUnderline floatRight" to="/Experience" activeClassName="navActive"><span className="navNumber">03.</span>Experience</NavLink>
