@@ -35,7 +35,7 @@ export default class Skills extends Component {
                 <p className="subText indentationInner list">3D Game Engine I coded from scratch using C++ and OpenGL.</p>
                 <p className="subText indentationInner list">The Engine was used to create a game whereby the user learns about game engine design.</p>
                 <p className="subText indentationInner list">Please note - The game was running on a 10 year old laptop at the time and this combined with OBS hurt the framerate.</p>
-                <p className="subText indentationOuter">And of course <a className="highlightedText" href="http://localhost:3000/" target="_blank">@ This Web App!</a></p>
+                <p className="subText indentationOuter">And of course <a className="highlightedText" href="https://kylepearce.netlify.app/" target="_blank">@ This Web App!</a></p>
                 <p className="subText indentationOuter">Project details:</p>
                 <p className="subText indentationInner list">React Front-End app.</p>
                 <p className="subText indentationInner list">Uses react-router-dom.</p>
