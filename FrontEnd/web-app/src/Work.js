@@ -37,10 +37,9 @@ export default class Skills extends Component {
                 <p className="subText indentationInner list">Please note - The game was running on a 10 year old laptop at the time and this combined with OBS hurt the framerate.</p>
                 <p className="subText indentationOuter">And of course <a className="highlightedText" href="http://localhost:3000/" target="_blank">@ This Web App!</a></p>
                 <p className="subText indentationOuter">Project details:</p>
-                <p className="subText indentationInner list">Full-Stack web online portfolio coded by myself.</p>
-                <p className="subText indentationInner list">React Front-End, hosted on Netlify.</p>
-                <p className="subText indentationInner list">Deno Back-End, hosted on Heroku.</p>
-                <p className="subText indentationInner list">PostgreSQL Database, hosted on ElephantSQL.</p>
+                <p className="subText indentationInner list">React Front-End app.</p>
+                <p className="subText indentationInner list">Uses react-router-dom.</p>
+                <p className="subText indentationInner list">Created as a hobby project.</p>
                 <p className="subText indentationOuter">View all my projects in my <a className="highlightedText" href="https://github.com/KylePearce-SoftwareDeveloper" target="_blank">@ GitHub</a></p>
                 <p className="subText indentationOuter">Projects include:</p>
                 <p className="subText indentationInner list">Full-Stack Web apps.</p>
