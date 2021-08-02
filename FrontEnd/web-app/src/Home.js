@@ -2,19 +2,14 @@ import React, { Component } from 'react';
 
 export default class Home extends Component {
 
-    state = { myInfo: [] }
+    state = { }
 
     constructor(props) {
         super(props);
     }
 
     async componentDidMount() {
-        const response = await fetch(`${process.env.REACT_APP_API_URL}myInfo`, {
-            method: 'GET',
-            credentials: 'include'
-        })
-        const myInfo = await response.json()
-        this.setState({ myInfo })
+        
     }
 
     componentDidUpdate(prevProps, prevState) {
@@ -26,8 +21,6 @@ export default class Home extends Component {
     }
 
     render() {
-        const { myInfo } = this.state;
-        console.log(myInfo);
         return (
             <div className="pageContents">
                 <h2 className="subText">Hello there, my name is</h2>
