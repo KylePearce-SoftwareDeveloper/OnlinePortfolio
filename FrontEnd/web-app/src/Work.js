@@ -22,7 +22,7 @@ export default class Skills extends Component {
         return (
             <div className="pageContents">
                 <h1 className="subText"><span className="navNumber">04.</span><span className="largerText">My Work</span></h1>
-                <p className="subText indentationOuter">Full-Stack Web App <a className="highlightedText" href="https://rent-a-thing.netlify.app" target="_blank">@ Rent-A-Thing</a></p>
+                <p className="subText indentationOuter">Full-Stack Web App <a className="highlightedText" href="https://rentathing.co.uk" target="_blank">@ Rent-A-Thing</a></p>
                 <p className="subText indentationOuter">Project details:</p>
                 <p className="subText indentationInner list">Group project consisting of five Software Engineers, time bounded by two weeks.</p>
                 <p className="subText indentationInner list">An app where a user can search for an item to rent, or create an account and post and item to be rented.</p>
