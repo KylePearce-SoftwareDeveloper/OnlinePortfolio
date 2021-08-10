@@ -46,7 +46,7 @@ export default class Skills extends Component {
                 <p className="subText indentationInner list">Computer game engines.</p>
                 <p className="subText indentationInner list">Computer games and web games.</p>
                 <p className="subText indentationInner list">Graphics projects.</p>
-                <p className="subText indentationInner list">SYCL, CUDA, Multithreading and OpenCL projects expolring mordern and efficient C++20</p>
+                <p className="subText indentationInner list">SYCL, CUDA, Multithreading and OpenCL projects expolring mordern and efficient C++20.</p>
             </div>
         );
     }
